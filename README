@@ -1,0 +1,11 @@
+# create environment
+conda create -n dl_hw1 python=3.10 -y
+
+# activate
+conda activate dl_hw1
+
+# install pytorch
+conda install pytorch torchvision torchaudio cpuonly -c pytorch -y
+
+# install other packages
+pip install numpy matplotlib tqdm jupyter
